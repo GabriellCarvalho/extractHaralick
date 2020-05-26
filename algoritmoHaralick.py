@@ -34,5 +34,4 @@ def setData(caminho):
 
 dataSaudavel = setData("images/saudavel")
 dataDoente = setData("images/doente")
-savetxt("dataSaudavel.csv", dataSaudavel, delimiter=',')
-savetxt("dataDoente.csv", dataDoente, delimiter=',')
+savetxt("dataSaudavel.csv", dataSaudavel+dataDoente, delimiter=',')
