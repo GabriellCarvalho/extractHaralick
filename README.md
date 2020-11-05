@@ -1,1 +1,1 @@
-#Algoritmo para extração de característica
+#Algoritmo para extração de característica Haralick(textura)
